@@ -4,3 +4,4 @@ from .user import Employee
 from .order import Order
 from .food_type import FoodType
 from .menu import Menu
+from .order_item import OrderItem

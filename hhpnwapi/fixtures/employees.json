@@ -1,0 +1,52 @@
+[
+  {
+      "model": "hhpnwapi.employee",
+      "pk": 1,
+      "fields": {
+          "first_name": "Thomas",
+          "last_name": "Rice",
+          "uid": "1",
+          "is_admin": false
+      }
+  },
+  {
+      "model": "hhpnwapi.employee",
+      "pk": 2,
+      "fields": {
+          "first_name": "Chris",
+          "last_name": "Rice",
+          "uid": "2",
+          "is_admin": false
+      }
+  },
+  {
+      "model": "hhpnwapi.employee",
+      "pk": 3,
+      "fields": {
+          "first_name": "Brandon",
+          "last_name": "Rice",
+          "uid": "3",
+          "is_admin": false
+      }
+  },
+  {
+      "model": "hhpnwapi.employee",
+      "pk": 4,
+      "fields": {
+          "first_name": "Angel",
+          "last_name": "Clarke",
+          "uid": "4",
+          "is_admin": false
+      }
+  },
+  {
+      "model": "hhpnwapi.employee",
+      "pk": 5,
+      "fields": {
+          "first_name": "Adele",
+          "last_name": "Tarwaters",
+          "uid": "5",
+          "is_admin": false
+      }
+  }
+]

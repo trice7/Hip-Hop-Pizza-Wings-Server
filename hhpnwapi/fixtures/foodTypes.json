@@ -1,0 +1,30 @@
+[
+  {
+      "model": "hhpnwapi.foodtype",
+      "pk": 1,
+      "fields": {
+          "label": "Pizzas"
+      }
+  },
+  {
+      "model": "hhpnwapi.foodtype",
+      "pk": 2,
+      "fields": {
+          "label": "Wings"
+      }
+  },
+  {
+      "model": "hhpnwapi.foodtype",
+      "pk": 3,
+      "fields": {
+          "label": "Sides"
+      }
+  },
+  {
+      "model": "hhpnwapi.foodtype",
+      "pk": 4,
+      "fields": {
+          "label": "Drinks"
+      }
+  }
+]
