@@ -1,0 +1,16 @@
+[
+  {
+      "model": "hhpnwapi.ordertype",
+      "pk": 1,
+      "fields": {
+          "label": "In Store"
+      }
+  },
+  {
+      "model": "hhpnwapi.ordertype",
+      "pk": 2,
+      "fields": {
+          "label": "Online"
+      }
+  }
+]

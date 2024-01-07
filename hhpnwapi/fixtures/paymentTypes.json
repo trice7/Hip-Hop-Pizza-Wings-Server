@@ -1,0 +1,23 @@
+[
+  {
+      "model": "hhpnwapi.paymenttype",
+      "pk": 1,
+      "fields": {
+          "label": "Credit/Debit"
+      }
+  },
+  {
+      "model": "hhpnwapi.paymenttype",
+      "pk": 2,
+      "fields": {
+          "label": "Cash/Check"
+      }
+  },
+  {
+      "model": "hhpnwapi.paymenttype",
+      "pk": 3,
+      "fields": {
+          "label": "Mobile"
+      }
+  }
+]

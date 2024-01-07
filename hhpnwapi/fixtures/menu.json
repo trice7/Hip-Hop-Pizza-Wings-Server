@@ -1,0 +1,142 @@
+[
+  {
+      "model": "hhpnwapi.menu",
+      "pk": 1,
+      "fields": {
+          "name": "Cheese Pizza",
+          "cost": 9.99,
+          "description": "Indulge in the timeless simplicity of our Classic Cheese Pizza. Crafted with a perfect blend of gooey, melted mozzarella and a savory tomato sauce atop our signature golden crust, this pizza is a celebration of pure, unadulterated cheesiness. Each bite promises a comforting symphony of flavors that harkens back to the essence of traditional pizza perfection.",
+          "type": 1
+      }
+  },
+  {
+      "model": "hhpnwapi.menu",
+      "pk": 2,
+      "fields": {
+          "name": "Pepperoni Pizza",
+          "cost": 11.99,
+          "description": "Savor the bold and zesty allure of our Pepperoni Perfection Pizza. Every slice boasts a harmonious marriage of premium pepperoni slices, smothered in rich tomato sauce, and generously blanketed with a golden layer of melted mozzarella cheese. Our handcrafted crust provides the ideal crispy foundation for this mouthwatering masterpiece, delivering a symphony of savory and spicy notes in every bite. Elevate your pizza experience with the timeless classic of Pepperoni Perfection.",
+          "type": 1
+      }
+  },
+  {
+      "model": "hhpnwapi.menu",
+      "pk": 3,
+      "fields": {
+          "name": "Meat Lovers Pizza",
+          "cost": 12.99,
+          "description": "Embark on a carnivorous journey with our Ultimate Meat Feast Pizza. This carnivore's delight features a delectable medley of savory toppings, including hearty slices of pepperoni, succulent sausage, flavorful ground beef, and tantalizing bacon. All this meaty goodness is generously layered on a bed of rich tomato sauce and melted mozzarella, creating a robust and satisfying flavor explosion. The handcrafted crust ensures the perfect balance of crispiness to complement the indulgent array of meats. Brace yourself for a carnivore's dream come true with our Ultimate Meat Feast Pizza.",
+          "type": 1
+      }
+  },
+  {
+      "model": "hhpnwapi.menu",
+      "pk": 4,
+      "fields": {
+          "name": "Supreme Pizza",
+          "cost": 13.99,
+          "description": "Dive into the exquisite flavor symphony of our Supreme Delight Pizza. This culinary masterpiece features a lavish assortment of premium toppings, including savory pepperoni, zesty Italian sausage, colorful bell peppers, fresh mushrooms, and sweet red onions, all elegantly arranged on a canvas of rich tomato sauce and melted mozzarella cheese. Our handcrafted crust provides the perfect foundation, delivering a satisfying crunch that enhances the medley of flavors in every bite. Indulge your senses in the supreme pleasure of this pizza, where every ingredient plays a harmonious role in creating an unforgettable taste experience.",
+          "type": 1
+      }
+  },
+  {
+      "model": "hhpnwapi.menu",
+      "pk": 5,
+      "fields": {
+          "name": "Naked 8 pc.",
+          "cost": 6.99,
+          "description": "Savor the flavor of our irresistibly crispy and tender 8-piece Boneless Naked Wings. These succulent bites are seasoned to perfection, ensuring a delightful taste experience with every mouthful. Whether you're a fan of classic buffalo, tangy barbecue, or savory garlic parmesan, our naked wings are the ideal canvas for your favorite sauce. Dive into the crave-worthy goodness of these juicy, boneless delights that promise a perfect balance of texture and taste. It's time to elevate your wing game with our Naked Wings. *** Includes your choice of dipping sauce",
+          "type": 2
+      }
+  },
+  {
+      "model": "hhpnwapi.menu",
+      "pk": 6,
+      "fields": {
+          "name": "Honey BBQ 8 pc.",
+          "cost": 8.99,
+          "description": "Indulge in the sweet and savory symphony of our 8-piece Honey BBQ Bliss Wings. These succulent bone-in wings are generously coated in our luscious honey barbecue sauce, creating a perfect balance of tangy and sweet flavors. Each bite unveils a tantalizing combination of tender, juicy chicken and the rich, caramelized notes of our signature honey barbecue glaze. Served with a side of crispy celery and cool ranch dressing, our Honey BBQ Bliss Wings promise a mouthwatering experience that will leave you craving more. Elevate your wing game with this delectable fusion of flavors and textures",
+          "type": 2
+      }
+  },
+  {
+      "model": "hhpnwapi.menu",
+      "pk": 7,
+      "fields": {
+          "name": "Chipotle 8 pc.",
+          "cost": 8.99,
+          "description": "Embark on a spicy adventure with our 8-piece Chipotle Infusion Wings. These bone-in wings are artfully seasoned with a bold chipotle spice blend, creating a perfect balance of heat and smokiness. Each bite offers a symphony of flavors, as the smoky chipotle essence melds seamlessly with the succulent chicken. Served with a side of cooling cilantro-lime dipping sauce, these wings are a tantalizing journey for your taste buds. Prepare to experience a burst of bold and fiery delight with our Chipotle Infusion Wings – a spicy indulgence that will leave you craving more.",
+          "type": 2
+      }
+  },
+  {
+      "model": "hhpnwapi.menu",
+      "pk": 8,
+      "fields": {
+          "name": "Nashville Hot 8pc.",
+          "cost": 10.99,
+          "description": "Ignite your taste buds with the fiery kick of our 8-piece Nashville Hot Heatwave Wings. These bone-in wings are coated in a spicy blend of cayenne pepper and signature seasonings, delivering an authentic Nashville hot flavor experience. The heat is perfectly complemented by a touch of sweetness, creating a mouthwatering harmony that dances on your palate. Served with a side of cool and creamy buttermilk ranch dressing, these wings are a bold and flavorful choice for those who crave the heat. Brace yourself for a taste sensation that captures the essence of Nashville's legendary hot chicken with our Nashville Hot Heatwave Wings.",
+          "type": 2
+      }
+  },
+  {
+      "model": "hhpnwapi.menu",
+      "pk": 9,
+      "fields": {
+          "name": "Cheese Sticks",
+          "cost": 8.99,
+          "description": "Elevate your meal with our indulgent Cheese Stick Delight – a perfect sidekick to your culinary adventure. Crispy on the outside, gooey on the inside, these golden-brown delights are filled with a rich and melty blend of premium cheeses. Served with a side of zesty marinara sauce for dipping, our Cheese Stick Delight promises a burst of cheesy goodness in every bite. Add a touch of warmth and comfort to your meal with this irresistible side item.",
+          "type": 3
+      }
+  },
+  {
+      "model": "hhpnwapi.menu",
+      "pk": 10,
+      "fields": {
+          "name": "Garlic Knots",
+          "cost": 7.99,
+          "description": "Delight in the simple pleasures with our Garlic Knots Elegance, a charming side offering that elevates any meal. Our oven-baked knots boast a perfect balance of softness and crispiness, generously coated in a flavorful blend of garlic-infused butter and aromatic herbs. Each bite unveils a warm and aromatic experience, creating a symphony of savory notes. Served with a side of marinara dipping sauce, these Garlic Knots are a delectable addition that adds a touch of sophistication to your dining experience. Enjoy the knot-so-subtle joy of these aromatic bites.",
+          "type": 3
+      }
+  },
+  {
+      "model": "hhpnwapi.menu",
+      "pk": 11,
+      "fields": {
+          "name": "Soft Drink",
+          "cost": 3.99,
+          "description": "Your choice of Coke, Sprite, Fanta, Root Beer, or Ginger Ale. Free refills for in house orders.",
+          "type": 4
+      }
+  },
+  {
+      "model": "hhpnwapi.menu",
+      "pk": 12,
+      "fields": {
+          "name": "Beer",
+          "cost": 5.99,
+          "description": "Your choice of Bud Weiser, Budlight, Corona Lite/Extra, Heineken, or our house brand. The house brand includes free refills for inhouse orders ***please drink responsibly.",
+          "type": 4
+      }
+  },
+  {
+      "model": "hhpnwapi.menu",
+      "pk": 13,
+      "fields": {
+          "name": "Long Island Ice Tea",
+          "cost": 7.99,
+          "description": "A tantalizing blend of vodka, rum, gin, tequila, triple sec, and a splash of cola. Served over ice with a hint of lemon.",
+          "type": 4
+      }
+  },
+  {
+      "model": "hhpnwapi.menu",
+      "pk": 14,
+      "fields": {
+          "name": "Kids Choice",
+          "cost": 2.99,
+          "description": "Choice of white/chocolate milk, Apple Juice, Grape Juice, or Lemonade. Refills available for Juice and Lemonade options for in house orders",
+          "type": 4
+      }
+  }
+]
