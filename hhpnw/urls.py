@@ -17,11 +17,14 @@ from django.contrib import admin
 from django.urls import path
 from django.conf.urls import include
 from rest_framework import routers
-from hhpnwapi.views import MenuView, OrderView
+from hhpnwapi.views import MenuView, OrderView, OrderTypeView, FoodTypeView, PaymentTypeView
 
 router = routers.DefaultRouter(trailing_slash=False)
 router.register(r'menus', MenuView, 'menu')
 router.register(r'orders', OrderView, 'order')
+router.register(r'ordertypes', OrderTypeView, 'ordertype')
+router.register(r'foodtypes', FoodTypeView, 'foodtype')
+router.register(r'paymenttypes', PaymentTypeView, 'paymenttype')
 
 
 urlpatterns = [
