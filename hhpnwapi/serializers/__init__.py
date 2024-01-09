@@ -3,3 +3,5 @@ from .food_type_serializer import FoodTypeSerializer
 from .menu_serlializer import MenuSerializer
 from .order_item_serlializer import OrderItemSerlializer
 from .order_serializer import OrderSerializer
+from .payment_type_serializer import PaymentTypeSerializer
+from .order_type_serializer import OrderTypeSerializer

@@ -21,7 +21,7 @@ class OrderView(ViewSet):
     except Order.DoesNotExist as ex:
       return Response({'message': ex.args[0]}, status=status.HTTP_404_NOT_FOUND)
     
-  def list(self, reqeust):
+  def list(self, request):
     """Handle GET requests for all orders
     
     Returns -> Response -- JSON serialized list of orders"""
