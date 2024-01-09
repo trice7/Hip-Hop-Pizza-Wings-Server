@@ -3,7 +3,7 @@ from django.http import HttpResponseServerError
 from rest_framework.viewsets import ViewSet
 from rest_framework.response import Response
 from rest_framework import status
-from hhpnwapi.models import Order, Employee, OrderType, PaymentType
+from hhpnwapi.models import Order, Employee, OrderType, PaymentType, OrderItem, Menu
 from hhpnwapi.serializers import OrderSerializer
 
 class OrderView(ViewSet):
@@ -16,6 +16,16 @@ class OrderView(ViewSet):
     
     try:
       order = Order.objects.get(pk=pk)
+      
+      #---Putting items on orders logic----
+      item_list = OrderItem.objects.filter(order_id = order.pk)
+      items = []
+      
+      for e in item_list:
+        items.append(e.item_id)
+        
+      order.items = Menu.objects.filter(pk__in = items)
+      #-----------------------------------
       serializer = OrderSerializer(order)
       return Response(serializer.data)
     except Order.DoesNotExist as ex:
@@ -28,6 +38,16 @@ class OrderView(ViewSet):
     
     try:
       orders = Order.objects.all()
+      
+      #----Putting items on orders logic---
+      for order in orders:
+        item_list = OrderItem.objects.filter(order_id = order.pk)
+        items = []
+        for e in item_list:
+          items.append(e.item_id)
+
+        order.items = Menu.objects.filter(pk__in = items)
+      #------------------------------------
       serializer = OrderSerializer(orders, many=True)
       return Response(serializer.data)
     except Order.DoesNotExist as ex:
