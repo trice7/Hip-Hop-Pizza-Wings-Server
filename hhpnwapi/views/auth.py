@@ -42,9 +42,10 @@ def register_user(request):
 
     # Now save the user info in the levelupapi_rare_user table
     user = Employee.objects.create(
-        fist_name=request.data['first_name'],
+        first_name=request.data['first_name'],
         uid=request.data['uid'],
-        last_name=request.data['last_name']
+        last_name=request.data['last_name'],
+        is_admin=request.data['is_admin']
     )
 
     # Return the rare_user info to the client
