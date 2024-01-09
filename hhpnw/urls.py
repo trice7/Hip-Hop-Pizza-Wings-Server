@@ -31,6 +31,6 @@ router.register(r'orderitems', OrderItemView, 'orderitem')
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include(router.urls)),
-    path('register', register_user)
-    path('checkuser', check_user)
+    path('register', register_user),
+    path('checkuser', check_user),
 ]
