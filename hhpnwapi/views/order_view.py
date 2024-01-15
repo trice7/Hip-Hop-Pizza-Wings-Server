@@ -18,13 +18,13 @@ class OrderView(ViewSet):
       order = Order.objects.get(pk=pk)
       
       #---Putting items on orders logic----
-      item_list = OrderItem.objects.filter(order_id = order.pk)
-      items = []
+      # item_list = OrderItem.objects.filter(order_id = order.pk)
+      # items = []
       
-      for e in item_list:
-        items.append(e.item_id)
+      # for e in item_list:
+      #   items.append(e.item_id)
         
-      order.items = Menu.objects.filter(pk__in = items)
+      # order.items = Menu.objects.filter(pk__in = items)
       #-----------------------------------
       serializer = OrderSerializer(order)
       return Response(serializer.data)
@@ -40,13 +40,14 @@ class OrderView(ViewSet):
       orders = Order.objects.all()
       
       #----Putting items on orders logic---
-      for order in orders:
-        item_list = OrderItem.objects.filter(order_id = order.pk)
-        items = []
-        for e in item_list:
-          items.append(e.item_id)
+      # This is a method of getting items onto a related object, but is inefficient and slow
+      # for order in orders:
+      #   item_list = OrderItem.objects.filter(order_id = order.pk)
+      #   items = []
+      #   for e in item_list:
+      #     items.append(e.item_id)
 
-        order.items = Menu.objects.filter(pk__in = items)
+      #   order.items = Menu.objects.filter(pk__in = items)
       #------------------------------------
       serializer = OrderSerializer(orders, many=True)
       return Response(serializer.data)

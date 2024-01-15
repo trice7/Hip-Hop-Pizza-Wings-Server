@@ -1,10 +1,11 @@
 from rest_framework import serializers
 from hhpnwapi.models import Order
 from .menu_serlializer import MenuSerializer
+from .order_item_serlializer import OrderItemSerlializer
 
 class OrderSerializer(serializers.ModelSerializer):
   """JSON serializer for orders"""
-  items = MenuSerializer(many=True)
+  items = OrderItemSerlializer(many=True, read_only=True)
   
   class Meta:
     model = Order
